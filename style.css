@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/* vivamus */
+header {
+    width: 100%;
+    height: 15vh;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(111 111 111);
+
+
+}
+
+.header_links a {
+    color: rgb(111 111 111);
+    margin: 0 18px;
+}
+
+.header_links a:hover {
+    border: 1px solid rgb(111 111 111);
+    padding: 3px 2px;
+    transition: .5s;
+
+}
+
+.vivamus {
+    background-image: url(./2saroy.jpg);
+    width: 100%;
+    height: 85vh;
+    text-align: center;
+    padding: 50% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vivamus h1,
+.vivamus p {
+    color: white;
+    text-shadow: 5px 5px 7px black;
+}
+
+.vivamus button {
+    width: 10%;
+    margin: 0 auto;
+    padding: 10px 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: dodgerblue;
+
+}
+
+.vivamus button:hover {
+    color: dodgerblue;
+    background-color: white;
+    transition: .5s;
+}
+
+/* icons */
+.icons2 {
+    padding: 0 10px;
+    width: 100%;
+    height: 40vh;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons2 .updown {
+    width: 20%;
+    height: 30vh;
+
+}
+
+.icons2 .gear {
+    width: 20%;
+    height: 30vh;
+
+}
+
+.icons2 .earth {
+    width: 20%;
+    height: 30vh;
+
+}
+
+.icons2 .leaf {
+    width: 20%;
+    height: 30vh;
+
+}
+
+.icons2 .o1 {
+    background-color: rgb(0, 182, 0);
+    color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: 0 50px;
+    border: 3px solid greenyellow;
+    border-radius: 50px;
+
+}
+
+.icons2 .lorem {
+    display: flex;
+    text-align: center;
+
+}
+
+.icons2 .lorem2 {
+    display: flex;
+    text-align: center;
+
+
+}
+
+.icons2 .o1 i {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 1px 18px;
+}
+
+/* ipsum */
+.ipsum {
+    background-image: url(./sreet\ 1.jpg);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ipsum h1,
+.ipsum p {
+    padding: 20px 50px;
+    color: white;
+    text-shadow: 5px 5px 7px black;
+}
+
+.cards {
+    padding: 10px 5px;
+    margin: 15px 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    /* margin: 10px 20px; */
+
+
+}
+
+.cards .card1 .fusce {
+    padding: 10px 5px;
+    color: blue;
+    font-size: 20px;
+}
+
+.cards .card1 .icons {
+    padding: 10px 5px;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cards .card1 button {
+    padding: 5px 15px;
+    margin: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.cards .card1 button:hover {
+    color: dodgerblue;
+    background-color: white;
+    transition: .5s;
+}
+
+/* ellusive */
+.ellusive {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.ellusive .rasm {
+    background-color: yellow;
+    width: 50%;
+    height: 100vh;
+    padding: 100px;
+}
+
+.ellusive .sozlar2 {
+    background-color: brown;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    justify-content: space-around;
+}
+
+/* room */
+.room {
+    background-image: url(./rasmm1.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.room p {
+    width: 50%;
+    font-size: 20px;
+}
+
+.room button {
+    width: 50px;
+    height: 80px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.room button i {
+    color: white;
+
+}
+
+/* room card */
+.roomcard {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    padding: 2% 5%;
+
+}
+
+.roomcard .card1 {
+    width: 300px;
+    height: 350px;
+    box-shadow: 5px 5px 10px, -5px -5px 10px;
+}
+
+.roomcard .card1 img {
+    width: 300px;
+    height: 150px;
+}
+
+.roomcard .card1 .royal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 11px;
+}
+
+.roomcard .card1 .royal p {
+    color: rgb(124, 123, 123);
+}
+
+.roomcard b {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.roomcard .iconss {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.roomcard .iconss i {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid gray;
+    padding: 10px 5px;
+    border-radius: 50px;
+    background-color: rgb(154, 154, 154);
+    /* margin: 10px; */
+    display: inline-flex;
+    justify-content: center;
+    color: white;
+}
+
+.roomcard .iconss button {
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+/* pages */
+.pages {
+    width: 100%;
+    height: 30vh;
+    background-color: grey;
+    display: flex;
+    gap: 30px;
+    padding: 30px 30px;
+
+}
+
+.pages .o1 {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pages .o1 p {
+    padding: 5px 1px;
+}
+
+.pages .o2 {
+    width: 15%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1px 1px 1px 1px;
+
+
+}
+
+.pages .o2 p {
+    padding: 5px 1px;
+
+}
+
+.pages .o5 {
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.pages .o5 p {
+    padding: 5px 1px;
+}
+
+.pages .o5 input {
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+.spann {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 13px;
+
+}
